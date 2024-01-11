@@ -6,11 +6,6 @@
     Author: Nathan Trinh, starter code provided by Adam T. Koehler
  ---------------------------------------------**/
 
-// You cannot use any libraries beyond the ones we have given below.
-// You must use output streams, file streams, vectors, and strings.
-// You are not allowed to use any other containers or objects.
-// You may not use structs, pointers, or dynamic memory allocations.
-
 #include <iostream>
 #include <string>
 #include <vector>
@@ -19,13 +14,7 @@
 
 using namespace std;
 
-// Function definitions for all the glorious function decomposition
-// Tip: alphabetical order makes it easy to find things if you have
-//      a lot of function decomposition.
-
 /// @brief print out the main menu of the management system
-
-// Function to output the main menu
 void printMenu()
 {
   cout << "Library Management Menu" << endl;
@@ -430,9 +419,7 @@ int main()
     // Output the menu and acquire a user selection
     printMenu();
     cout << endl << "Enter a command (case does not matter): ";
-
-    // We use getline for all user input to avoid needing to handle
-    // input buffer issues relating to using both >> and getline
+      
     getline(cin, command);
     cout << endl;
 
